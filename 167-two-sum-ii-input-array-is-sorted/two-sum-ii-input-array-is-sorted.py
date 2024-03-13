@@ -1,7 +1,7 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
 
-        # Solution utilizing sorted
+        # Solution utilizing sorted - O(n) O(1)
 
         left = 0
         right = len(numbers) - 1
@@ -17,7 +17,7 @@ class Solution:
         
         return []
 
-        # # General solution
+        # # General solution - O(n) O(n)
         # s_map = {}
 
         # for i in range(len(numbers)):
