@@ -19,6 +19,8 @@ class Solution:
         
         return maxArea
 
+# TC: O(n) O(1)
+
             
 
         
