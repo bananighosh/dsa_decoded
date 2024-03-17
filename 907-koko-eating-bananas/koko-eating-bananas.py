@@ -2,7 +2,8 @@ class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
 
         left , right = 1, max(piles)
-        res = float('inf')
+        # res = float('inf')
+        res = max(piles)
 
         while left <= right:
             k = ( left + right ) // 2
