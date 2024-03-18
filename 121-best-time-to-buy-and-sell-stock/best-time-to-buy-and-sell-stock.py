@@ -13,7 +13,7 @@ class Solution:
         
         return profit
 
-        # # Sol 1
+        # # Sol 1 - sliding window
         # left = 0 
         # right = left + 1
         # maxProfit = 0
