@@ -12,26 +12,6 @@ class Solution:
             char_set.add(s[right])
             maxLen = max(maxLen, right - left + 1)
 
-        # maxLen = 0
-        # freq = set()
-        # left = right = 0
-
-        # # while right < len(s):
-        # #     if s[right] not in freq:
-        # #         freq[s[right]] = right
-        # #         maxLen = max(maxLen, right - left + 1)
-        # #     else:
-        # #         left += 1
-        # #         del freq[s[left]]
-
-        # while right < len(s):
-        #     while s[right] in freq:
-        #         # del freq[s[left]]
-        #         freq.remove(s[left])
-        #         left += 1
-            
-        #     freq.add(s[right])
-        #     maxLen = max(maxLen, right - left + 1
         
         return maxLen
         
