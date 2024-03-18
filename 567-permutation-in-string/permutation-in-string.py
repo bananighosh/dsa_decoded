@@ -8,6 +8,7 @@ class Solution:
 
         left = 0
 
+        # Counter handled the following
         # for char in s1:
         #     map1[char] += 1
         
