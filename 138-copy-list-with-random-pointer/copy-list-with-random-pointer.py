@@ -14,7 +14,8 @@ class Solution:
         # traverse the hashmap and create the output linkedlist
 
         curr = head
-        random_map = {None : None}
+        # if we try to reference None, we get None back
+        random_map = { None: None }
 
 
         while curr:
