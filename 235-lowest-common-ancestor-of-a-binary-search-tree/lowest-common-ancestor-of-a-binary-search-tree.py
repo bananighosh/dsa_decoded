@@ -12,9 +12,9 @@ class Solution:
         large = max (p.val, q.val)
 
         while root:
-            if small > root.val:
+            if root.val < small:
                 root = root.right
-            elif large < root.val:
+            elif root.val > large:
                 root = root.left
             else:
                 return root
