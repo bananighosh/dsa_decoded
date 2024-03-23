@@ -12,8 +12,10 @@ class Solution:
         large = max (p.val, q.val)
 
         while root:
+            # if minimum of both is greater than the current value then move to right
             if root.val < small:
                 root = root.right
+            # if max of both is greater than the current value then move to right
             elif root.val > large:
                 root = root.left
             else:
