@@ -7,12 +7,9 @@
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         #Sol 1 : O(n)
-        # traverse left of the BST for finding the lower values than the parent
-        # keep decrementing k
-        # once the depth is reached that's the smallest value
-        # in recursion when k = 0, we have reached the kth smallest
+        
         count = [0]
-        res = [0]
+        res = [0]        
 
         def inorder_dfs(root, k):
             if not root or count[0] >= k:
