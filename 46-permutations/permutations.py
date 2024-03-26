@@ -6,7 +6,7 @@ class Solution:
         curr = []
         def backtrack(curr, nums):
             if not nums:
-                res.append(curr)
+                res.append(curr.copy())
                 return
             
             for i in range(len(nums)):
