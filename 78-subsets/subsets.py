@@ -6,7 +6,8 @@ class Solution:
         def recurse(i):
 
             if i >= len(nums):
-                res.append(curr.copy())
+                # res.append(curr.copy())/
+                res.append(curr[:])
                 return
             
             curr.append(nums[i])
