@@ -14,8 +14,8 @@ class Solution:
             elif end < newInterval[0]:
                 res.append(intervals[i])
             else:
-                new_start = min(intervals[i][0], newInterval[0])
-                new_end = max(intervals[i][1], newInterval[1])
+                new_start = min(start, newInterval[0])
+                new_end = max(end, newInterval[1])
                 newInterval = [new_start, new_end]
         
         res.append(newInterval)
