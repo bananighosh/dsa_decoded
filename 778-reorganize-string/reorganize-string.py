@@ -4,24 +4,24 @@ class Solution:
         for kry, val in stringCount.items():
             if val > math.ceil(len(s)/2):
                 return ""
-        strArray = sorted([(val, key) for key, val in stringCount.items()], key = lambda x : x[0])
+        strArray = [(-1*val, key) for key, val in stringCount.items()]
+        heapq.heapify(strArray)
         ans = "*"
         while strArray:
-            print(strArray)
-            val, key = strArray.pop()
+            val, key = heapq.heappop(strArray)
             if ans[-1] != key:
                 ans += key
-                val -= 1
+                val += 1
             else:
-                val2, key2 = strArray.pop()
+                val2, key2 = heapq.heappop(strArray)
                 ans += key2
-                val2 -= 1
+                val2 += 1
                 if val2 != 0:
-                    strArray.append((val2, key2))
+                    heapq.heappush(strArray,(val2, key2))
             if val != 0:
-                strArray.append((val, key))
-            strArray = sorted(strArray, key = lambda x : x[0])
-        return ans[1:] 
+                heapq.heappush(strArray,(val, key))
+    
+        return ans[1:]
             
 
 
