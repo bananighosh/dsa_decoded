@@ -16,6 +16,7 @@ class Solution:
                 leftmax += 1
                 leftmin = max(0, leftmin - 1)
             
+            #  there is no possible open paren left of asterisk
             if leftmax < 0:
                 return False
             
