@@ -5,7 +5,7 @@ class Solution:
         """
         k = m + n - 1
         while n > 0:
-            if m > 0 and nums1[m - 1] >= nums2[n -1]:
+            if m > 0 and nums1[m - 1] > nums2[n -1]:
                 nums1[k] = nums1[m - 1]
                 m -= 1
             else:
