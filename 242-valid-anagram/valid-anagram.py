@@ -1,21 +1,23 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
 
-        if len(s) != len(t):
-            return False
-
-        freq_map = defaultdict(int)
+        hmap = {}
 
         for c in s:
-            freq_map[c] += 1
-        
+            if c not in hmap:
+                hmap[c] = 0
+            
+            hmap[c] += 1
+
         for c in t:
-            freq_map[c] -= 1
+            if c not in hmap or hmap[c] < 0:
+                return False
+            else:
+                hmap[c] -= 1
+                
         
-        for val in freq_map.values():
+        for key, val in hmap.items():
             if val != 0:
                 return False
-            
-
         return True
         
