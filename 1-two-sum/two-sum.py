@@ -1,14 +1,26 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
-        hset = {}
 
-        for i, num in enumerate(nums):
+        for i in range(len(nums)):
+            curr = target - nums[i]
 
-            if (target - num) in hset:
-                return [i, hset[target - num]]
-            
-            hset[num] = i
+            for j in range(i + 1, len(nums)):
+
+                if(nums[j] == curr):
+                    return [i, j]
         
         return []
+        
+        # hset = {}
+
+        # for i, num in enumerate(nums):
+
+        #     if (target - num) in hset:
+        #         return [i, hset[target - num]]
+            
+        #     hset[num] = i
+        
+        # return []
+
+    
         
