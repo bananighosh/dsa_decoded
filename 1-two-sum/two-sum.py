@@ -1,16 +1,14 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        
+        hset = {}
 
-        t_map = defaultdict(int)
-        n = len(nums)
+        for i, num in enumerate(nums):
 
-        for i in range(n):
-            num = target - nums[i]
-
-            if num in t_map:
-                return [t_map[num], i]
+            if (target - num) in hset:
+                return [i, hset[target - num]]
             
-            t_map[nums[i]] = i
+            hset[num] = i
         
         return []
         
