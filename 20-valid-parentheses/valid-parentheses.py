@@ -1,19 +1,21 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        stk = []
 
-        stack = []
-        closeToOpen = {")": "(", "}":"{", "]":"["}
+        braces_map = {")":"(", "}":"{", "]":"["}
 
         for c in s:
-            if c in closeToOpen:
-                if stack and stack[-1] == closeToOpen[c]:
-                    stack.pop()
+            # if (c == '(' or c == '{' or c == '['):
+            #     stk.append(c)
+            # else:
+            #     stk.pop()
+
+            if c in braces_map:
+                if stk and stk[-1] == braces_map[c]:
+                    stk.pop()
                 else:
                     return False
             else:
-                stack.append(c)
+                stk.append(c)
 
-        return True if not stack else False 
-
-            
-        
+        return True if not stk else False 
