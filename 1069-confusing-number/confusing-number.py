@@ -3,19 +3,16 @@ class Solution:
 
         rotating_numbers_map = {0:0, 1:1, 6:9, 8:8, 9:6}
 
-        result = 0
-        num = n
-        while n > 0:
-            digit = n % 10
-            if digit not in rotating_numbers_map:
+        num = list(str(n))
+        num2 = num[::-1]
+        for i, n in enumerate(num2):
+            if int(n) not in rotating_numbers_map:
                 return False
-            
-            result = result * 10 + rotating_numbers_map[digit]
+            num2[i] = str(rotating_numbers_map[int(n)])
 
-            n = n // 10
+        print(num2, num)
+        return num2 != num
 
-        print(result,num)
-        return num != result
 
 
 
