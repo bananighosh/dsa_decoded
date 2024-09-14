@@ -6,6 +6,7 @@ class Solution:
             num_shifts = item[1]
             num_shifts %= len(s)
           
+            print(num_shifts, s[-num_shifts:], s[:-num_shifts])
             if( direction == 0 ):
                 s = s[num_shifts:] + s[:num_shifts]
             else:
