@@ -14,6 +14,8 @@ class Solution:
 
         return len(s[length:] + t[length:]) <= 1
 
+        # return len_s + 1 == len_t
+
         # i = 0
 
         # while i < len_s and i < len_t and s[i] == t[i]:
