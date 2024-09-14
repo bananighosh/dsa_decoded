@@ -1,16 +1,36 @@
 class Solution:
     def isOneEditDistance(self, s: "str", t: "str") -> "bool":
-        ns, nt = len(s), len(t)
 
-        if ns > nt:
-            return self.isOneEditDistance(t, s)
-        if nt - ns > 1:
+        len_s, len_t = len(s), len(t)
+        i = 0
+
+        if(abs(len_s - len_t) > 1):
             return False
-        for i in range(ns):
-            if s[i] != t[i]:
-                if ns == nt:
-                    return s[i + 1 :] == t[i + 1 :]
-                else:
-                    return s[i:] == t[i + 1 :]
-        return ns + 1 == nt
+        
+        # length = min(len_s, len_t)
+
+        # for i in range(length):
+        #     if s[i] != t[i]:
+        #         return s[i+1:] == t[i+1:] or s[i:] == t[i+1:] or s[i+1:] == t[i:]
+
+        # return len(s[length:] + t[length:]) <= 1
+
+        while i < len_s and i < len_t and s[i] == t[i]:
+            i += 1
+        
+        if i == len(s) and i == len(t):
+            return False
+
+        if(len_s > len_t):
+             return s[i+1:] == t[i:]
+        elif(len_s < len_t):
+            return s[i:] == t[i+1:]
+        else:
+            return s[i+1:] == t[i+1:]
+        
+
+
+
+        
+        
         
