@@ -1,12 +1,15 @@
 class Solution:
     def stringShift(self, s: str, shift: List[List[int]]) -> str:
-        
-        for direction, num_shifts in shift:
-            num_shifts %= len(s)
 
-            if( direction == 0 ):
-                s = s[num_shifts:] + s[:num_shifts]
+        for item in shift:
+            direction = item[0]
+            amount = item[1] % len(s)
+
+            if direction == 0:
+                s = s[amount:] + s[:amount]
             else:
-                s = s[-num_shifts:] + s[:-num_shifts]
-
+                s = s[-amount:] + s[:-amount]
+        
         return s
+        
+        
