@@ -12,10 +12,10 @@ class Solution:
         def helper(node,cur):
             if not node:
                 return
-            helper(node.left,cur+node.val)
-            helper(node.right,cur+node.val)
             if cur + node.val == targetSum:
                 self.total += 1
+            helper(node.left,cur+node.val)
+            helper(node.right,cur+node.val)
         def dfs(node):
             if not node:
                 return
