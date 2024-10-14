@@ -1,29 +1,20 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        if len(s1) > len(s2):
-            return False
-        
-        map1 = Counter(s1)
-        map2 = Counter(s2[:len(s1) - 1])
-
-        left = 0
-
-        # Counter handled the following
-        # for char in s1:
-        #     map1[char] += 1
-        
-        # for i in range(len(s1)):
-        #     map2[s2[i]] += 1
-
-        for right in range(len(s1) - 1, len(s2)):
-            map2[s2[right]] += 1
-            if map1 == map2:
+        s1Count = defaultdict(int)
+        for s in s1:
+            s1Count[s] += 1
+        s1len = len(s1)
+        s2dict = defaultdict(int)
+        for s in s2[:s1len]:
+            s2dict[s] += 1
+        for i, s in enumerate(s2[:-s1len]):
+            if s2dict == s1Count:
                 return True
-
-            map2[s2[left]] -= 1
-            if map2[s2[left]] == 0:
-                del map2[s2[left]]
-            left += 1
+            s2dict[s2[i+s1len]] += 1
+            s2dict[s] -= 1
+            if s2dict[s] == 0:
+                del s2dict[s]
+        return s2dict == s1Count
+            
         
-        return False
         
