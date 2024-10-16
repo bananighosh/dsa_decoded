@@ -1,10 +1,11 @@
 class Solution:
     def groupStrings(self, strings: List[str]) -> List[List[str]]:
-        hashMap = defaultdict(list)
-        for string in strings:
+        stringMap = defaultdict(list)
+        for s in strings:
             key = []
-            for i in range(len(string)-1):
-                key.append((ord(string[i+1]) - ord(string[i]))%26)
-            hashMap["".join(str(key))].append(string)
-        return hashMap.values()
+            for i in range(len(s)-1):
+                distance = (ord(s[i+1]) - ord(s[i])) % 26
+                key.append(distance)
+            stringMap["".join(str(key))].append(s)
+        return stringMap.values()
         
