@@ -1,18 +1,11 @@
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
-        #words.sort(key = lambda w : -len(w))
-        wordIndex = {w:i for i,w in enumerate(words)}
-        @cache
-        def dfs(i):
-            res = 1
-            for j, word in enumerate(words[i]):
-                nWord = words[i]
-                pred = nWord[:j] + nWord[j+1:]
-                if pred in wordIndex:
-                    res = max(res, 1 + dfs(wordIndex[pred]))
-            return res
-        ans = 0
-        for i in range(len(words)):
-            ans = max(ans, dfs(i))
+        words.sort(key=len)  
+        word_chain = defaultdict(int)  
 
-        return ans
+        for word in words:
+            for i in range(len(word)):
+                prev_word = word[:i] + word[i+1:]
+                word_chain[word] = max(word_chain[word], word_chain[prev_word] + 1)
+
+        return max(word_chain.values())
