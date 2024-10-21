@@ -1,6 +1,20 @@
 class Solution:
     def smallestCommonElement(self, mat: List[List[int]]) -> int:
-        smallestCommEle = mat[0][0]
+        
+        #sol 2
+        commMap = defaultdict(int)
+        for i in range(len(mat)):
+            for j in range(len(mat[0])):
+                commMap[mat[i][j]] += 1
+        
+        for key, val in commMap.items():
+            if val == len(mat):
+                return key
+        
+        return -1
+
+
+        # sol 1
         commSet = [set(row) for row in mat]
 
         for n in mat[0]:
@@ -14,6 +28,7 @@ class Solution:
         
         return -1
 
+        # 1st thought
         # commMap = defaultdict()
         # commSet = mat[0]
         # print(commSet)
