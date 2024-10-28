@@ -6,18 +6,17 @@ class Solution:
         # sol1 : binary search
         
         # sol2: 
-        nums.sort()
+       
         visited = set(nums)
         longest_streak = 0
 
-        print(nums)
         for num in nums:
             curr_streak = num
             curr_streak_len = 0
 
             while curr_streak in visited:
                 curr_streak_len += 1
-                visited.remove(curr_streak)
+                
                 curr_streak = curr_streak ** 2
                 
 
