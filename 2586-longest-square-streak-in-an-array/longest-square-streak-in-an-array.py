@@ -17,7 +17,9 @@ class Solution:
 
             while curr_streak in visited:
                 curr_streak_len += 1
+                visited.remove(curr_streak)
                 curr_streak = curr_streak ** 2
+                
 
             if curr_streak_len > 1:
                 longest_streak = max(longest_streak, curr_streak_len)
