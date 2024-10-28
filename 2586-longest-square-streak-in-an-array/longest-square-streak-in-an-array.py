@@ -38,7 +38,7 @@ class Solution:
             if curr_streak_len > 1:
                 longest_streak = max(longest_streak, curr_streak_len)
             
-        return longest_streak if longest_streak >= 2 else -1
+        return longest_streak if longest_streak > 1 else -1
 
             
         #     while curr_streak * curr_streak <= 10**5:
