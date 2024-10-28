@@ -5,39 +5,50 @@ class Solution:
         # O(n) or <O(n^2) ??
 
         nums.sort()
-        visited = set()
+        visited = set(nums)
 
         longest_streak = 0
 
-        def binary_search(nums, target):
-            left, right = 0, len(nums) - 1
+        # def binary_search(nums, target):
+        #     left, right = 0, len(nums) - 1
 
-            while left <= right:
-                mid = (left + right) // 2
-                if nums[mid] == target:
-                    return True
-                elif nums[mid] < target:
-                    left = mid + 1
-                else:
-                    right = mid - 1
-            return False
+        #     while left <= right:
+        #         mid = (left + right) // 2
+        #         if nums[mid] == target:
+        #             return True
+        #         elif nums[mid] < target:
+        #             left = mid + 1
+        #         else:
+        #             right = mid - 1
+        #     return False
 
+        print(nums)
         for num in nums:
-            if num in visited:
-                continue
+            # if num in visited:
+            #     continue
             
             curr_streak = num
             # sq_curr_streak = num * num
-            curr_streak_len = 1
+            curr_streak_len = 0
+
+            while curr_streak in visited:
+                curr_streak_len += 1
+                curr_streak = curr_streak ** 2
+
+            if curr_streak_len > 1:
+                longest_streak = max(longest_streak, curr_streak_len)
             
-            while curr_streak * curr_streak <= 10**5:
-                if binary_search(nums, curr_streak * curr_streak):
-                    curr_streak *= curr_streak
-                    visited.add(curr_streak)
-                    curr_streak_len += 1
-                else:
-                    break
-            
-            longest_streak = max(longest_streak, curr_streak_len)
-        
         return longest_streak if longest_streak >= 2 else -1
+
+            
+        #     while curr_streak * curr_streak <= 10**5:
+        #         if binary_search(nums, curr_streak * curr_streak):
+        #             curr_streak *= curr_streak
+        #             visited.add(curr_streak)
+        #             curr_streak_len += 1
+        #         else:
+        #             break
+            
+        #     longest_streak = max(longest_streak, curr_streak_len)
+        
+        # return longest_streak if longest_streak >= 2 else -1
