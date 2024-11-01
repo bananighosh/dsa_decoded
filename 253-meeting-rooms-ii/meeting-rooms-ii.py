@@ -1,6 +1,7 @@
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-
+        if not intervals:
+            return 0
         free_rooms = []
 
         intervals.sort(key = lambda x: x[0])
