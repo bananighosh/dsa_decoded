@@ -1,19 +1,21 @@
 class Solution:
     def removeInterval(self, intervals: List[List[int]], toBeRemoved: List[int]) -> List[List[int]]:
+        rem_start, rem_end = toBeRemoved
+        res = []
 
-        remove_start, remove_end = toBeRemoved
-        output = []
+        print(rem_start, rem_end )
 
         for start, end in intervals:
-
-            if start > remove_end or end < remove_start:
-                output.append([start, end])
+            if start > rem_end or end < rem_start:
+                res.append([start, end])
             else:
+                if start < rem_start:
+                    res.append([start, rem_start])
+                if end > rem_end:
+                    res.append([rem_end, end])
+        
+        return res
 
-                if start < remove_start:
-                    output.append([start, remove_start])
-                if end > remove_end:
-                    output.append([remove_end, end])
 
-        return output
+
         
