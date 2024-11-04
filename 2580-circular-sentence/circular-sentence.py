@@ -12,7 +12,7 @@ class Solution:
 
         for i, word in enumerate(words):
             if i == len(words)-1:
-                continue
+                break
             if words[i][-1] != words[i + 1][0]:
                 return False
 
