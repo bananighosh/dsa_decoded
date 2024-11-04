@@ -1,29 +1,27 @@
 class Solution:
     def compressedString(self, word: str) -> str:
 
-        res = []
-        n = len(word)
+        ans = ""
 
-        cnt = 1
-        left = 0
-        for right in range(1, n):
-            if word[right] == word[left]:
-                if cnt == 9:
-                    res.append(str(cnt))
-                    res.append(word[left])
-                    cnt = 0
-                cnt += 1
+        prev = word[0]
+
+        count = 0
+
+        for char in word:
+            if char == prev and count == 9:
+                ans += str(count) + char
+                count = 1
+            elif char == prev:
+                count += 1
             else:
-                res.append(str(cnt))
-                res.append(word[left])
-                left = right
-                cnt = 1
-        
-        res.append(str(cnt))
-        res.append(word[left])
-    
-        
-        return "".join(res)
+                ans += str(count) + prev
+                prev = char
+                count = 1
+        ans += str(count) + prev
+
+        return ans
+            
+            
 
       
 
