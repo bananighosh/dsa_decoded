@@ -4,11 +4,8 @@ class Solution:
         res = []
         n = len(word)
 
-        prev = word[0]
         cnt = 1
-
         left = 0
-
         for right in range(1, n):
             if word[right] == word[left]:
                 if cnt == 9:
@@ -16,7 +13,6 @@ class Solution:
                     res.append(word[left])
                     cnt = 0
                 cnt += 1
-
             else:
                 res.append(str(cnt))
                 res.append(word[left])
