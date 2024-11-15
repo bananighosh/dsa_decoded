@@ -4,11 +4,9 @@ class Solution:
 
         while right > 0 and arr[right - 1] <= arr[right]:
             right -= 1
-        
         res = right
 
         while left < right:
-
             while right < len(arr) and arr[left] > arr[right]:
                 right += 1
             res = min(res, right - left - 1)
@@ -17,7 +15,5 @@ class Solution:
                 break
             
             left += 1
-        
-        return res
         
         return res
