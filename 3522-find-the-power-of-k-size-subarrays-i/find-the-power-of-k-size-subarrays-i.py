@@ -1,22 +1,19 @@
 class Solution:
     def resultsArray(self, nums: List[int], k: int) -> List[int]:
-        length = len(nums)
-        result = [0] * (length - k + 1)
+        left = 0
+        res = [-1] * (len(nums) - k + 1)
 
-        for start in range(length - k + 1):
-            is_consecutive_and_sorted = True
 
-            # Check if the current subarray is sorted and consecutive
-            for index in range(start, start + k - 1):
-                if nums[index + 1] != nums[index] + 1:
-                    is_consecutive_and_sorted = False
-                    break
+        for right in range(len(nums)):
+            if nums[right] - nums[right - 1] != 1:
+                left = right
 
-            # If valid, take the maximum of the subarray, otherwise set to -1
-            if is_consecutive_and_sorted:
-                # Maximum element of this subarray
-                result[start] = nums[start + k - 1]
-            else:
-                result[start] = -1
+            while right - left + 1 > k: # or nums[right] != right - left + 1:
+                left += 1
+            
+            if right - left + 1 == k:
+                res[right - k + 1] = nums[right]
+        
+        return res
 
-        return result
+        
