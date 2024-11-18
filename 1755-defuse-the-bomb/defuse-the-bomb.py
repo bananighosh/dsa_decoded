@@ -8,9 +8,7 @@ class Solution:
             return res
         elif k < 0:
             for i in range(len(code)):  
-                
-                for j in range(i-1, i+k-1, -1):
-            
+                for j in range(i+k, i):
                     res[i] += code[j]
         else:
             for i in range(len(code)):
