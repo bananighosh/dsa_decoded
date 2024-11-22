@@ -7,9 +7,6 @@ class Solution:
 
         for row in matrix:
             curr_ele = tuple(ele if row[0] == 0 else 1 - ele for ele in row)
-
-            if curr_ele not in freq_map:
-                freq_map[curr_ele] = 0
             
             freq_map[curr_ele] += 1
 
