@@ -6,9 +6,12 @@ class Solution:
         freq_map = Counter()
 
         for row in matrix:
-            curr_ele = tuple(ele if row[0] == 0 else 1 - ele for ele in row)
+            if row[0] == 1:
+                curr_row = tuple(1 - ele for ele in row)
+            else:
+                curr_row = tuple(row)
             
-            freq_map[curr_ele] += 1
+            freq_map[curr_row] += 1
 
         return max(freq_map.values()) 
         
