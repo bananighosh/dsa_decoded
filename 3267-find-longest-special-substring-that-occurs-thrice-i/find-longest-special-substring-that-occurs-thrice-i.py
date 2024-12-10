@@ -8,8 +8,8 @@ class Solution:
                 subarrays.append(s[i:index+1])
                 index += 1
             
-            freq_map = Counter(subarrays)
-            max_len = 0
+        freq_map = Counter(subarrays)
+        max_len = 0
 
         for key,value in freq_map.items():
             if value >= 3:
