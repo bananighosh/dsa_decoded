@@ -1,6 +1,6 @@
 class Solution:
     def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:
-        vowels = set("aeiou")  # Use a set for faster lookup
+        vowels = set("aeiou")
         n = len(words)
         
         is_vowel_string = [
