@@ -13,7 +13,7 @@ class Solution:
         level = 0
 
         while q:
-            for node in range(len(q)):
+            for _ in range(len(q)):
                 node = q.popleft()
                 if node.left:
                     q.append(node.left)
