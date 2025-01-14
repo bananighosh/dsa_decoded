@@ -1,15 +1,5 @@
 class Solution:
     def minimumLength(self, s: str) -> int:
-        min_len = 0
-
-        freq = Counter(s)
-
-        for cnt in freq.values():
-            if cnt % 2 == 1:
-                min_len += 1
-            else:
-                min_len += 2
-        
-        return min_len
+        return sum(1 if cnt&1 else 2 for cnt in Counter(s).values())
 
         
