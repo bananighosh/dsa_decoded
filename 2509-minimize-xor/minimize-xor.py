@@ -11,16 +11,13 @@ class Solution:
         i = 0
         x = num1
 
-        # Remove the LSB
-        while cnt1 > cnt2:
-            if x & (1 << i):
+        while cnt1 != cnt2:
+            # Remove the LSB
+            if cnt1 > cnt2 and x & (1 << i):
                 cnt1 -= 1
                 x = x ^ (1 << i) # unset the bit
-            i += 1
-
-        # Adding the LSB
-        while cnt1 < cnt2:
-            if (x & (1 << i)) == 0:
+            # Add the LSB
+            elif cnt1 < cnt2 and (x & (1 << i)) == 0:
                 cnt1 += 1
                 x = x | (1 << i) # set the bit
             i += 1
