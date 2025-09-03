@@ -11,7 +11,7 @@ class Solution(object):
             if nums[j] != nums[j + 1]:
                 if nums[j] > nums[i] and nums[j] > nums[j + 1] or \
                     nums[j] < nums[i] and nums[j] < nums[j + 1]:
-                        res += 1 # hill
+                        res += 1
                 i = j
                  
         return res
