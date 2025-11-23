@@ -19,9 +19,11 @@ class Solution(object):
             if not t1 or not t2:
                 return False
             
-            return (t1.val == t2.val) and \
-                    dfs(t1.left, t2.right) and dfs(t1.right, t2.left)
-                    # reason: This is like a person looking at a mirror. The reflection in the mirror has the same head, but the reflection's right arm corresponds to the actual person's left arm, and vice versa
+            if t1.val != t2.val:
+                return False
+            
+            # reason: This is like a person looking at a mirror. The reflection in the mirror has the same head, but the reflection's right arm corresponds to the actual person's left arm, and vice versa
+            return dfs(t1.left, t2.right) and dfs(t1.right, t2.left)
 
         return dfs(root,root)
         
