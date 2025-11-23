@@ -13,11 +13,9 @@ class Solution(object):
         if not root:
             return 0
         
-        lh = self.minDepth(root.left)
-        rh = self.minDepth(root.right)
-
-        if (lh == 0 or rh == 0):
-            return 1 + max(lh, rh)
+        if not root.left:
+            return 1 + self.minDepth(root.right)
+        if not root.right:
+            return 1 + self.minDepth(root.left)
         
-        return 1 + min(lh, rh)
-        
+        return 1 + min(self.minDepth(root.left), self.minDepth(root.right))
