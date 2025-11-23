@@ -11,21 +11,14 @@ class Solution(object):
         :type targetSum: int
         :rtype: bool
         """
-        def dfs(node, currSum, targetSum):
+        def dfs(node, targetSum):
             if not node:
                 return False
             
-            currSum += node.val
-            
             if not node.left and not node.right:
-                if currSum == targetSum:
-                    return True
-            isLeft = isRight = False
-            
-            if node.left:
-                isLeft = dfs(node.left, currSum, targetSum)
-            if node.right:
-                isRight = dfs(node.right, currSum, targetSum)
-            return isLeft or isRight
-        
-        return dfs(root, 0, targetSum)
+                return node.val == targetSum
+
+            return dfs(node.left, targetSum - node.val) or \
+                     dfs(node.right, targetSum - node.val)
+
+        return dfs(root, targetSum)
