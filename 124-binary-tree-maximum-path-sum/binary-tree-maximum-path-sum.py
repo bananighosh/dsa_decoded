@@ -19,9 +19,11 @@ class Solution(object):
             leftSum = max(0, dfs(root.left))
             rightSum = max(0, dfs(root.right))
 
+            # currSum = root.val + leftSum + rightSum
+
             maxSum[0] = max(maxSum[0], leftSum + rightSum + root.val)
 
-            return max(leftSum, rightSum) + root.val
+            return  root.val + max(leftSum, rightSum)
         
         dfs(root)
         return maxSum[0]
