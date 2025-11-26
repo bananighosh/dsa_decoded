@@ -11,26 +11,24 @@ class Solution(object):
         :rtype: List[List[int]]
         """
 
+        # DFS
         if not root:
             return []
         
-        res = defaultdict(deque)
-        dq = deque([root])
-        level = 0
+        res = []
 
-        while dq:
-            l_size = len(dq)
-            for n in range(l_size):
-                node = dq.popleft()
-                res[level].append(node.val)
+        def dfs(root, level):
 
-                if node.left:
-                    dq.append(node.left)
-                if node.right:
-                    dq.append(node.right)
+            if level == len(res):
+                res.append([])
             
-            level += 1
-        
-        return [list(v) for v in res.values()]
+            res[level].append(root.val)
 
-        
+            if root.left:
+                dfs(root.left, level + 1)
+            
+            if root.right:
+                dfs(root.right, level + 1)
+
+        dfs(root, 0)
+        return res
