@@ -10,18 +10,18 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: int
         """
-        def dfs(root, dia):
+        dia = [0]
+
+        def height(root):
             if not root:
                 return 0
             
-            lh = dfs(root.left, dia)
-            rh = dfs(root.right, dia)
+            lh = height(root.left)
+            rh = height(root.right)
 
             dia[0] = max(dia[0], lh + rh)
 
             return 1 + max(lh, rh)
         
-        dia = [0]
-        dfs(root, dia)
+        height(root)
         return dia[0]
-        
