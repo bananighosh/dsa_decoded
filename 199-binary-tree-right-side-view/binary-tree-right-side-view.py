@@ -19,17 +19,18 @@ class Solution(object):
 
         while dq:
             curr = []
+            res.append(dq[-1].val)
             for _ in range(len(dq)):
                 node = dq.popleft()
 
-                if len(curr) == level:
-                    curr.append(node.val)
-                
-                if node.right:
-                    dq.append(node.right)
+                #if len(curr) == 0:
+                    #curr.append(node.val)
+                #print(curr)
                 if node.left:
                     dq.append(node.left)
+                if node.right:
+                    dq.append(node.right)
             
-            res.extend(curr)
+            
         
         return res
