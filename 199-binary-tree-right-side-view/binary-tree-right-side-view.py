@@ -22,7 +22,7 @@ class Solution(object):
             for _ in range(len(dq)):
                 node = dq.popleft()
 
-                if len(curr) == level:
+                if len(curr) == 0:
                     curr.append(node.val)
                 
                 if node.right:
@@ -30,7 +30,6 @@ class Solution(object):
                 if node.left:
                     dq.append(node.left)
             
-            # res.append(curr)
             res.extend(curr)
         
         return res
