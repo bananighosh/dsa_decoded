@@ -30,7 +30,7 @@ class Solution(object):
                 if node.left:
                     dq.append(node.left)
             
-            # res.0(curr)
+            # res.append(curr)
             res.extend(curr)
         
         return res
