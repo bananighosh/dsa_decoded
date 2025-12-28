@@ -5,5 +5,5 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        return Counter(s) == Counter(t)
+        return len(s) == len(t) and Counter(s) == Counter(t)
         
