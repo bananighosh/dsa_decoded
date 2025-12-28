@@ -1,26 +1,19 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
 
-        for i in range(len(nums)):
-            curr = target - nums[i]
+        container = defaultdict(int)
 
-            for j in range(i + 1, len(nums)):
-
-                if(nums[j] == curr):
-                    return [i, j]
+        for i, num in enumerate(nums):
+            curr = target - num
+            if curr in container:
+                return [container[curr], i]
+            
+            container[num] = i
         
         return []
-        
-        # hset = {}
-
-        # for i, num in enumerate(nums):
-
-        #     if (target - num) in hset:
-        #         return [i, hset[target - num]]
-            
-        #     hset[num] = i
-        
-        # return []
-
-    
         
