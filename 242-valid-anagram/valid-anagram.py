@@ -5,8 +5,5 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        s_hash = Counter(s)
-        t_hash = Counter(t)
-        print(s_hash, t_hash)
-        return s_hash == t_hash
+        return Counter(s) == Counter(t)
         
