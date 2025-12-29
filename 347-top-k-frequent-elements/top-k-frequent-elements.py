@@ -5,15 +5,13 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        # heap implementation - minheap with (-) sign for elem freq
-        heap = []
+        res = []
         freq = Counter(nums)
-        
-        for num,count in freq.items():
+
+        heap = []
+        for num, count in freq.items():
             heapq.heappush(heap, (-count, num))
         
-        print(heap)
-        res = []
         while len(res) < k:
             curr = heapq.heappop(heap)
             res.append(curr[1])
