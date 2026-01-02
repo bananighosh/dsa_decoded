@@ -1,10 +1,9 @@
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
-        store = set()
-        for n in nums:
-            if n in store:
-                return n
-            store.add(n)
+        n = len(nums)
+        for i in range(n - 1):
+            if nums[i] == nums[i + 1] or (i+2 < n and nums[i] == nums[i + 2]):
+                return nums[i]
         
-        return -1
+        return nums[0]
         
