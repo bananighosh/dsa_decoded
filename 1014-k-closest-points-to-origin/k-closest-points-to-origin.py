@@ -1,49 +1,19 @@
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
-        # sol1
-        # heap consists of the distance from origin and the point list, 
-        # sorted on the basis of distance
+        heap = []
+        res = []
 
-        # minHeap = []
-        # res = []
-
-        # for curr in points:
-
-        #     dist = curr[0] ** 2 + curr[1] ** 2
-        #     minHeap.append([dist, curr])
+        def euclidDist(x, y):
+            d = x**2 + y**2
+            return math.sqrt(d)
         
-        # print(minHeap)
-        # heapq.heapify(minHeap)
-        # print(minHeap)
-
-        # while k != 0:
-        #     dist, point = heapq.heappop(minHeap)
-        #     res.append(point)
-        #     k -= 1
+        for point in points:
+            dist = euclidDist(point[0], point[1])
+            heapq.heappush(heap, (dist, point))
         
-        # return res 
-
-
-        # #sol2 - fastest
-        # if k == len(points):
-        #     return points
-
-        # points = sorted(points, key = lambda x: x[0] ** 2 + x[1] ** 2)
-        # return points[:k]
-
-        #sol3 maxHeap
-        maxHeap = []
-
-        size = 0
-
-        for curr in points:
-            dist = curr[0] ** 2 + curr[1] ** 2
-            heapq.heappush(maxHeap, (-1*dist, curr))
-            size += 1
-
-            if size > k:
-                heapq.heappop(maxHeap)
-                size -= 1
-            
-        res = [i[1] for i in maxHeap]
+        while len(res) < k:
+            curr = heapq.heappop(heap)
+            res.append(curr[1])
+        
         return res
+        
