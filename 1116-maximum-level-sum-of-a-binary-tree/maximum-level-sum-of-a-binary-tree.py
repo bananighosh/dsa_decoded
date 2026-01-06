@@ -17,16 +17,14 @@ class Solution:
         while q:
             level += 1
             currSum = 0 
-
             for _ in range(len(q)):
                 node = q.popleft()
 
                 currSum += node.val
-                if node.left:
-                    q.append(node.left)
-                if node.right:
-                    q.append(node.right)
-            
+
+                if node.left: q.append(node.left)
+                if node.right: q.append(node.right)
+
             if maxSum < currSum:
                 maxSum = currSum
                 minLevel = level
