@@ -6,36 +6,31 @@
 #         self.right = right
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
-        maxSum = float('-inf')
-        currLevelSum= []
+        if not root:
+            return 0
         
-        def levelOrder(root, level, currLevelSum):
+        q = deque([root])
+        level = 0
+        maxSum  = float('-inf')
+        minLevel = float('inf')
+
+        while q:
+            level += 1
+            currSum = 0 
+
+            for _ in range(len(q)):
+                node = q.popleft()
+
+                currSum += node.val
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
             
-            if not root:
-                return
-            
-            if len(currLevelSum) == level:
-                currLevelSum.append(root.val)
-            else:
-                currLevelSum[level] += root.val
-            
-            levelOrder(root.left, level + 1, currLevelSum)
-            levelOrder(root.right, level + 1, currLevelSum)
+            if maxSum < currSum:
+                maxSum = currSum
+                minLevel = level
         
+        return minLevel
 
-        levelOrder(root, 0, currLevelSum)
-
-        res = 0
-        for i in range(len(currLevelSum)):
-            if maxSum < currLevelSum[i]:
-                maxSum = currLevelSum[i]
-                res = i + 1
         
-        return res
-
-            
-
-
-            
-
-
