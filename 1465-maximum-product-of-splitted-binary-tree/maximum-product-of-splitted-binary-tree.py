@@ -8,6 +8,7 @@ class Solution:
     def maxProduct(self, root: Optional[TreeNode]) -> int:
         MOD = 10**9 + 7
         maxProd = float('-inf')
+        subTreeSums = []
         
         def sumOfTree(root):
             if not root:
@@ -16,22 +17,20 @@ class Solution:
             left_sum = sumOfTree(root.left)
             right_sum = sumOfTree(root.right)
 
-            return root.val + left_sum + right_sum
+            currSum = root.val + left_sum + right_sum
+            subTreeSums.append(currSum)
+
+            return currSum
         
         totalSum = sumOfTree(root)
 
-        def dfs(root):
-            nonlocal maxProd
-            if not root:
-                return 0
-            
-            left = dfs(root.left)
-            right = dfs(root.right)
+        for s in subTreeSums:
+            maxProd = max(maxProd, s * (totalSum - s))
+        
+        return maxProd % MOD
 
-            subTreeSum = root.val + left + right
-            
-            maxProd = max(maxProd, (totalSum - subTreeSum) * subTreeSum)
-            return subTreeSum
+
+
         
         dfs(root)
         return maxProd % MOD
