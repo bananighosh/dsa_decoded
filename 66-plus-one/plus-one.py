@@ -1,17 +1,20 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
+        res = []
         carry = 1
-        ans = []
-        for num in digits[::-1]:
-            carry, val = divmod(num+carry,10)
-            ans.append(val)
+
+        for n in digits[::-1]:
+             cSum = n + carry
+             carry = cSum // 10
+             
+             cSum = cSum % 10
+             res.append(cSum)
+
+             
         
         if carry:
-            ans.append(carry)
-        return ans[::-1]
-            
-
+            res.append(1)
         
-
-
+        return res[::-1]
+            
         
