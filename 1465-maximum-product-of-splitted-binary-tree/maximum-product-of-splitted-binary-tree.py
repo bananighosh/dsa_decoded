@@ -28,9 +28,3 @@ class Solution:
             maxProd = max(maxProd, s * (totalSum - s))
         
         return maxProd % MOD
-
-
-
-        
-        dfs(root)
-        return maxProd % MOD
