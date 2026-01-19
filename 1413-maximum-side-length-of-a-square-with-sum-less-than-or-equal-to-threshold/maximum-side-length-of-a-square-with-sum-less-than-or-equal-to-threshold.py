@@ -1,3 +1,4 @@
+# TBD : learn to optimize further with prefixSum and Binary Search
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:
         rows = len(mat)
