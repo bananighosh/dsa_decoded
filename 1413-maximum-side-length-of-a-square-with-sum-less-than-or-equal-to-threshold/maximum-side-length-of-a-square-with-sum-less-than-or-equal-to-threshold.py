@@ -29,6 +29,9 @@ class Solution:
             for c in range(cols):
                 # k is an offset to reach the diagonal end corner representing the square
                 #  (i, j) to (i + offset, j + offset)
+                # offset k replaced with maxSide as we had already calculated the threshold check
+                # until this offset size of the square so no point of again trying every cell from 0
+                # optimise it to find for bigger sum from bigger sized matrix reduce compute
                 for k in range(maxSide, min(rows - r, cols - c)): 
                     r2 = r + k
                     c2 = c + k
