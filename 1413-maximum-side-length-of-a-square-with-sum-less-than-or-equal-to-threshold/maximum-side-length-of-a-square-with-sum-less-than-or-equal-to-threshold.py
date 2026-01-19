@@ -29,7 +29,7 @@ class Solution:
             for c in range(cols):
                 # k is an offset to reach the diagonal end corner representing the square
                 #  (i, j) to (i + offset, j + offset)
-                for k in range(0, min(rows - r, cols - c)): 
+                for k in range(maxSide, min(rows - r, cols - c)): 
                     r2 = r + k
                     c2 = c + k
 
