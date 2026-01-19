@@ -1,4 +1,4 @@
-# TBD : learn to optimize further with prefixSum and Binary Search
+# optimized further with prefixSum and Binary Search
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:
         rows = len(mat)
@@ -21,27 +21,35 @@ class Solution:
             diag = prefixSum[r - 1][c - 1] if r > 0 and c > 0 else 0
             currSquareSum = prefixSum[r2][c2] - up - left + diag 
             return currSquareSum
-        
+
         maxSide = 0
-        # not float('-inf') because ques expects 0 len if no such square found, ref TC
 
-        for r in range(rows):
-            for c in range(cols):
-                # k is an offset to reach the diagonal end corner representing the square
-                #  (i, j) to (i + offset, j + offset)
-                # offset k replaced with maxSide as we had already calculated the threshold check
-                # until this offset size of the square so no point of again trying every cell from 0
-                # optimise it to find for bigger sum from bigger sized matrix reduce compute
-                for k in range(maxSide, min(rows - r, cols - c)): 
-                    r2 = r + k
-                    c2 = c + k
+        # binary search can be applied on the offset 
+        # as we 1st try to expand the sub-matrix sum to reach threshold by increasing k
+        # if it exceeds we can iterate over lower size of k
+        # which is the basic logic of binary search
 
-                    currSquareSum = squareSum(r, c, r2, c2)
+        def checkSquareSum(side):
+            for r in range(rows - side + 1):
+                for c in range(cols - side + 1):
+                    r2 = r + side - 1
+                    c2 = c + side - 1
 
-                    if currSquareSum <= threshold:
-                        maxSide = max(maxSide, k + 1)
-                    else:
-                        break
+                    if squareSum(r, c, r2, c2) <= threshold:
+                        return True
+            return False
+
+        low, high = 1, min(rows, cols)
+
+        while low <= high:
+            mid = low + (high - low) // 2
+
+            if checkSquareSum(mid):
+                maxSide = mid
+                low = mid + 1
+            else:
+                high = mid - 1
+
         
         return maxSide
 
