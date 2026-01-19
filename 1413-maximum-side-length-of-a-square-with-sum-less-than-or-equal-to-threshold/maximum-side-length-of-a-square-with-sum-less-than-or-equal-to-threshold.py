@@ -1,4 +1,7 @@
+# TBD: optimize this further for GPU kernels ( this will use only rowPrefixSum not prefixMat)
 # optimized further with prefixSum and Binary Search
+# Note: I prefer the non bin search code with k starting from maxSide
+
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:
         rows = len(mat)
