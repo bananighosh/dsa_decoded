@@ -15,12 +15,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
