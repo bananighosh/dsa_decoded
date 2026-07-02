@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -39,11 +40,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
+| [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -56,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -64,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -91,4 +96,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0509-fibonacci-number](https://github.com/bananighosh/dsa_decoded/tree/main/0509-fibonacci-number/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 <!---LeetCode Topics End-->
