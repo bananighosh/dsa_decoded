@@ -100,4 +100,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
+## Shell
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0192-word-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0192-word-frequency/) | Medium |
 <!---LeetCode Topics End-->
