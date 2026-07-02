@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/bananighosh/dsa_decoded/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/bananighosh/dsa_decoded/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
+| [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -45,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
+| [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -52,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
+| [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
