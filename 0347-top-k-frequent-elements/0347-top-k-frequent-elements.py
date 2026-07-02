@@ -12,6 +12,4 @@ class Solution:
             res.append(num)
         
         return res
-
-
-            
+        
