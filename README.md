@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/bananighosh/dsa_decoded/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0198-house-robber](https://github.com/bananighosh/dsa_decoded/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0213-house-robber-ii/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/bananighosh/dsa_decoded/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/bananighosh/dsa_decoded/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -142,5 +144,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/bananighosh/dsa_decoded/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0704-binary-search](https://github.com/bananighosh/dsa_decoded/tree/main/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
