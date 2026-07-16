@@ -1,10 +1,10 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
-        n = len(nums)
+
         prefixSumMod = 0
         prefixSumModFreq = {0: -1}
 
-        for i in range(n):
+        for i, num in enumerate(nums):
             prefixSumMod = (prefixSumMod + nums[i]) % k
 
             if prefixSumMod in prefixSumModFreq:
