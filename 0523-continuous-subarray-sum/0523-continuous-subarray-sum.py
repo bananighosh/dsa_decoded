@@ -5,7 +5,7 @@ class Solution:
         prefixSumModFreq = {0: -1}
 
         for i, num in enumerate(nums):
-            prefixSumMod = (prefixSumMod + nums[i]) % k
+            prefixSumMod = (prefixSumMod + num) % k
 
             if prefixSumMod in prefixSumModFreq:
                 if i - prefixSumModFreq[prefixSumMod] > 1:    
