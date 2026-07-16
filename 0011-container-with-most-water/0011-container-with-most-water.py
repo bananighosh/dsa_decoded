@@ -5,17 +5,19 @@ class Solution:
         maxArea = 0
 
         while i < j:
-
-            h = min(height[i], height[j])
+            l_height, r_height = height[i], height[j]
+            h = min(l_height, r_height)
             w = j - i
 
             maxArea = max(maxArea, w * h)
-            print(maxArea)
 
-            if height[i] < height[j]:
-                i += 1
+            if l_height < r_height:
+                while i < j and l_height >= height[i] :
+                    i += 1
             else:
-                j -= 1
+                while i < j  and r_height >= height[j]:
+                    j -= 1
+               
 
         return maxArea 
 
