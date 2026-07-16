@@ -155,4 +155,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/bananighosh/dsa_decoded/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0704-binary-search](https://github.com/bananighosh/dsa_decoded/tree/main/0704-binary-search/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 <!---LeetCode Topics End-->
