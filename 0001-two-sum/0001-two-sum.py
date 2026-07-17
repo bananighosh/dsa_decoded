@@ -1,12 +1,12 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        hmap = defaultdict()
+        hmap = defaultdict(int)
 
-        for i,num in enumerate(nums):
+        for i, num in enumerate(nums):
             curr = target - num
             if curr in hmap:
-                return [hmap[curr], i]
-
+                return [i, hmap[curr]]
+            
             hmap[num] = i
         
         return []
