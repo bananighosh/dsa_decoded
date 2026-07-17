@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0659-split-array-into-consecutive-subsequences](https://github.com/bananighosh/dsa_decoded/tree/main/0659-split-array-into-consecutive-subsequences/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0704-binary-search](https://github.com/bananighosh/dsa_decoded/tree/main/0704-binary-search/) | Easy |
+| [0739-daily-temperatures](https://github.com/bananighosh/dsa_decoded/tree/main/0739-daily-temperatures/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/bananighosh/dsa_decoded/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
@@ -177,4 +178,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0543-diameter-of-binary-tree/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/bananighosh/dsa_decoded/tree/main/0739-daily-temperatures/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/bananighosh/dsa_decoded/tree/main/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
