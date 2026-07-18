@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/bananighosh/dsa_decoded/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/bananighosh/dsa_decoded/tree/main/0739-daily-temperatures/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/bananighosh/dsa_decoded/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [0974-subarray-sums-divisible-by-k](https://github.com/bananighosh/dsa_decoded/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0659-split-array-into-consecutive-subsequences](https://github.com/bananighosh/dsa_decoded/tree/main/0659-split-array-into-consecutive-subsequences/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
+| [0974-subarray-sums-divisible-by-k](https://github.com/bananighosh/dsa_decoded/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 ## Sorting
@@ -122,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/bananighosh/dsa_decoded/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/bananighosh/dsa_decoded/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0974-subarray-sums-divisible-by-k](https://github.com/bananighosh/dsa_decoded/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
