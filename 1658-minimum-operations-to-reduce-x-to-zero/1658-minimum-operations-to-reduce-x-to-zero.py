@@ -7,15 +7,18 @@ class Solution:
         if target < 1:
             return -1
 
-        hmap = {0:-1}
-        prefixSum = 0
+        left = 0
+        windowSum = 0
         maxLen = float("-inf")
 
-        for i, num in enumerate(nums):
-            prefixSum += num
+        for right, num in enumerate(nums):
+            windowSum += num
 
-            if prefixSum - target in hmap:
-                maxLen = max(maxLen, i - hmap[prefixSum - target])
-            hmap[prefixSum] = i
+            while windowSum > target:
+                windowSum -= nums[left]
+                left += 1
+            
+            if windowSum == target:
+                maxLen = max(maxLen, right - left + 1)
         
         return len(nums) - maxLen if not math.isinf(maxLen) else -1
