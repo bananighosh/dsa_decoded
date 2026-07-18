@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/bananighosh/dsa_decoded/tree/main/0011-container-with-most-water/) | Medium |
+| [0015-3sum](https://github.com/bananighosh/dsa_decoded/tree/main/0015-3sum/) | Medium |
 | [0061-rotate-list](https://github.com/bananighosh/dsa_decoded/tree/main/0061-rotate-list/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Array
@@ -18,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/bananighosh/dsa_decoded/tree/main/0011-container-with-most-water/) | Medium |
+| [0015-3sum](https://github.com/bananighosh/dsa_decoded/tree/main/0015-3sum/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/bananighosh/dsa_decoded/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/bananighosh/dsa_decoded/tree/main/0074-search-a-2d-matrix/) | Medium |
@@ -66,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/bananighosh/dsa_decoded/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/bananighosh/dsa_decoded/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
