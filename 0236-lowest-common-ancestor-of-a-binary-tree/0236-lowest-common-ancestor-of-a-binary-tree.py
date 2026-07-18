@@ -17,7 +17,4 @@ class Solution:
         if left and right:
             return root
         
-        if left:
-            return left
-        
-        return right
+        return left if left else right
