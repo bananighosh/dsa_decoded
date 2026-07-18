@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/bananighosh/dsa_decoded/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/bananighosh/dsa_decoded/tree/main/0015-3sum/) | Medium |
 | [0061-rotate-list](https://github.com/bananighosh/dsa_decoded/tree/main/0061-rotate-list/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/bananighosh/dsa_decoded/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Array
 | Problem Name | Difficulty |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/bananighosh/dsa_decoded/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/bananighosh/dsa_decoded/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0198-house-robber](https://github.com/bananighosh/dsa_decoded/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0213-house-robber-ii/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/bananighosh/dsa_decoded/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -180,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/bananighosh/dsa_decoded/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/bananighosh/dsa_decoded/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/bananighosh/dsa_decoded/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0704-binary-search](https://github.com/bananighosh/dsa_decoded/tree/main/0704-binary-search/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Tree
