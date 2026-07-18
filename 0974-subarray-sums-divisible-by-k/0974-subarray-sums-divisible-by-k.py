@@ -11,8 +11,7 @@ class Solution:
         for i, num in enumerate(nums):
             prefixSum += num
             prefixSumMod = prefixSum % k
-            if prefixSumMod in hmap:
-                res += hmap[prefixSumMod]
+            res += hmap[prefixSumMod]
             
             hmap[prefixSumMod] += 1
         
