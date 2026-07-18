@@ -9,7 +9,7 @@ class Solution:
 
         hmap = {0:-1}
         prefixSum = 0
-        maxLen = float("-inf")
+        maxLen = -1
 
         for i, num in enumerate(nums):
             prefixSum += num
@@ -20,4 +20,4 @@ class Solution:
         
         print(math.isinf(maxLen))
         
-        return len(nums) - maxLen if not math.isinf(maxLen) else -1
+        return len(nums) - maxLen if maxLen != -1 else -1
