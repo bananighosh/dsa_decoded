@@ -4,6 +4,8 @@ class Solution:
         target = sum(nums) - x
         if target == 0:
             return len(nums)
+        if target < 1:
+            return -1
 
         hmap = {0:-1}
         prefixSum = 0
