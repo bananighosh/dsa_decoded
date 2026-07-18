@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0746-min-cost-climbing-stairs](https://github.com/bananighosh/dsa_decoded/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0974-subarray-sums-divisible-by-k](https://github.com/bananighosh/dsa_decoded/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Hash Table
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/bananighosh/dsa_decoded/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/bananighosh/dsa_decoded/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/bananighosh/dsa_decoded/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -171,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/bananighosh/dsa_decoded/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0704-binary-search](https://github.com/bananighosh/dsa_decoded/tree/main/0704-binary-search/) | Easy |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -194,4 +198,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0739-daily-temperatures](https://github.com/bananighosh/dsa_decoded/tree/main/0739-daily-temperatures/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 <!---LeetCode Topics End-->
