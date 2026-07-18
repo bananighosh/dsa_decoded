@@ -7,12 +7,13 @@ class Solution:
         for num in numsSet:
             if num - 1 not in numsSet:
                 currLen = 1
-
+            
                 while num + currLen in numsSet:
                     currLen += 1
                 
                 maxLen = max(maxLen, currLen)
-                
+        
         return maxLen
+
 
         
