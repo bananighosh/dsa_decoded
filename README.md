@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/bananighosh/dsa_decoded/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0198-house-robber](https://github.com/bananighosh/dsa_decoded/tree/main/0198-house-robber/) | Medium |
+| [0200-number-of-islands](https://github.com/bananighosh/dsa_decoded/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0213-house-robber-ii/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/bananighosh/dsa_decoded/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/bananighosh/dsa_decoded/tree/main/0036-valid-sudoku/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/bananighosh/dsa_decoded/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0200-number-of-islands](https://github.com/bananighosh/dsa_decoded/tree/main/0200-number-of-islands/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -196,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/bananighosh/dsa_decoded/tree/main/0200-number-of-islands/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/bananighosh/dsa_decoded/tree/main/0543-diameter-of-binary-tree/) | Easy |
 ## Binary Tree
@@ -219,4 +222,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0200-number-of-islands](https://github.com/bananighosh/dsa_decoded/tree/main/0200-number-of-islands/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/bananighosh/dsa_decoded/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
