@@ -8,6 +8,7 @@ class Solution:
         for right, c in enumerate(s):
             if c not in hmap:
                 hmap[c] = 0
+            hmap[c] += 1
             
             while len(hmap) > 2:
                 hmap[s[left]] -= 1
@@ -15,7 +16,6 @@ class Solution:
                     del hmap[s[left]]
                 left += 1
             
-            hmap[c] += 1
             maxLen = max(maxLen, right - left + 1)
         
         return maxLen
