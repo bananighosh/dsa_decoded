@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/bananighosh/dsa_decoded/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
+| [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
@@ -225,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
