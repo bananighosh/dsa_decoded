@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/bananighosh/dsa_decoded/tree/main/0042-trapping-rain-water/) | Hard |
 | [0061-rotate-list](https://github.com/bananighosh/dsa_decoded/tree/main/0061-rotate-list/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/bananighosh/dsa_decoded/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0567-permutation-in-string](https://github.com/bananighosh/dsa_decoded/tree/main/0567-permutation-in-string/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
 ## Array
 | Problem Name | Difficulty |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/bananighosh/dsa_decoded/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0567-permutation-in-string](https://github.com/bananighosh/dsa_decoded/tree/main/0567-permutation-in-string/) | Medium |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/bananighosh/dsa_decoded/tree/main/0659-split-array-into-consecutive-subsequences/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
@@ -101,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0340-longest-substring-with-at-most-k-distinct-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/bananighosh/dsa_decoded/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0567-permutation-in-string](https://github.com/bananighosh/dsa_decoded/tree/main/0567-permutation-in-string/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
@@ -234,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0340-longest-substring-with-at-most-k-distinct-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/bananighosh/dsa_decoded/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
+| [0567-permutation-in-string](https://github.com/bananighosh/dsa_decoded/tree/main/0567-permutation-in-string/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
