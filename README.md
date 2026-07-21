@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0340-longest-substring-with-at-most-k-distinct-characters/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0523-continuous-subarray-sum/) | Medium |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/bananighosh/dsa_decoded/tree/main/0049-group-anagrams/) | Medium |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0340-longest-substring-with-at-most-k-distinct-characters/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
@@ -228,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0159-longest-substring-with-at-most-two-distinct-characters/) | Medium |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/bananighosh/dsa_decoded/tree/main/0340-longest-substring-with-at-most-k-distinct-characters/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
