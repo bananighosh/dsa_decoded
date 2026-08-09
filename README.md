@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/bananighosh/dsa_decoded/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0567-permutation-in-string](https://github.com/bananighosh/dsa_decoded/tree/main/0567-permutation-in-string/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -172,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/bananighosh/dsa_decoded/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0509-fibonacci-number](https://github.com/bananighosh/dsa_decoded/tree/main/0509-fibonacci-number/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/bananighosh/dsa_decoded/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -188,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0659-split-array-into-consecutive-subsequences](https://github.com/bananighosh/dsa_decoded/tree/main/0659-split-array-into-consecutive-subsequences/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Shell
 | Problem Name | Difficulty |
 | ------- | ------- |
