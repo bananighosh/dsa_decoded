@@ -163,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0509-fibonacci-number](https://github.com/bananighosh/dsa_decoded/tree/main/0509-fibonacci-number/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [3345-smallest-divisible-digit-product-i](https://github.com/bananighosh/dsa_decoded/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -261,4 +262,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3310-remove-methods-from-project](https://github.com/bananighosh/dsa_decoded/tree/main/3310-remove-methods-from-project/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/bananighosh/dsa_decoded/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 <!---LeetCode Topics End-->
