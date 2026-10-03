@@ -1,15 +1,16 @@
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         res = []
         heap = []
         freq = Counter(nums)
 
         for num, count in freq.items():
-            heapq.heappush(heap, (-count, num))
+            heapq.heappush(heap , (-count, num))
         
-        while len(res) < k:
+        while k > len(res):
             count, num = heapq.heappop(heap)
             res.append(num)
         
         return res
+
         
