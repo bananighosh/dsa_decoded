@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/bananighosh/dsa_decoded/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/bananighosh/dsa_decoded/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/bananighosh/dsa_decoded/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/bananighosh/dsa_decoded/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/bananighosh/dsa_decoded/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/bananighosh/dsa_decoded/tree/main/0659-split-array-into-consecutive-subsequences/) | Medium |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/bananighosh/dsa_decoded/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/bananighosh/dsa_decoded/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/bananighosh/dsa_decoded/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/bananighosh/dsa_decoded/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/bananighosh/dsa_decoded/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
@@ -182,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/bananighosh/dsa_decoded/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0213-house-robber-ii/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/bananighosh/dsa_decoded/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/bananighosh/dsa_decoded/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0509-fibonacci-number](https://github.com/bananighosh/dsa_decoded/tree/main/0509-fibonacci-number/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/bananighosh/dsa_decoded/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
@@ -198,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/bananighosh/dsa_decoded/tree/main/0011-container-with-most-water/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/bananighosh/dsa_decoded/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/bananighosh/dsa_decoded/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/bananighosh/dsa_decoded/tree/main/0659-split-array-into-consecutive-subsequences/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/bananighosh/dsa_decoded/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
