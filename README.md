@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/bananighosh/dsa_decoded/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
 | [1861-rotating-the-box](https://github.com/bananighosh/dsa_decoded/tree/main/1861-rotating-the-box/) | Medium |
+| [2446-determine-if-two-events-have-conflict](https://github.com/bananighosh/dsa_decoded/tree/main/2446-determine-if-two-events-have-conflict/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0692-top-k-frequent-words](https://github.com/bananighosh/dsa_decoded/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/bananighosh/dsa_decoded/tree/main/0767-reorganize-string/) | Medium |
 | [1772-sort-features-by-popularity](https://github.com/bananighosh/dsa_decoded/tree/main/1772-sort-features-by-popularity/) | Medium |
+| [2446-determine-if-two-events-have-conflict](https://github.com/bananighosh/dsa_decoded/tree/main/2446-determine-if-two-events-have-conflict/) | Easy |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/bananighosh/dsa_decoded/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
